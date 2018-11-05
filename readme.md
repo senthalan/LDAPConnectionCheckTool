@@ -1,8 +1,8 @@
-#Tool to change LDAP users' password
+# Tool to change LDAP users' password
 This java client will connect to the LDAP server and search for provided username.
 The output will be logged in output.log file.
 
-##Configurations
+## Configurations
 
 config.properties file contains the properties to connect to the LDAP
 * ConnectionURL : Connection URL to the LDAP server.
@@ -16,7 +16,7 @@ config.properties file contains the properties to connect to the LDAP
 You can refer this documentation[1] for more information
 [1] - https://docs.wso2.com/dislay/IS560/Configuring+a+Read-write+LDAP+User+Store
 
-##How to run
+## How to run
 
 
 ```javac LDAPConnectionCheck.java ```
