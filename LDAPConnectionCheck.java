@@ -27,7 +27,7 @@ public class LDAPConnectionCheck {
         if (args.length == 1) {
             username = args[0];
         } else {
-            System.out.println("Provide username and new password as params");
+            System.out.println("Provide username as params");
             System.exit(1);
         }
 
