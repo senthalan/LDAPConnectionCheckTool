@@ -1,4 +1,4 @@
-# Tool to change LDAP users' password
+# Tool to check the LDAP connection
 This java client will connect to the LDAP server and search for provided username.
 The output will be logged in output.log file.
 
